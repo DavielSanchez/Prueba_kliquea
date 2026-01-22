@@ -103,7 +103,7 @@ Una vez ejecutado, accede a:
 ```bash
 # Asegurarse de que backend/.env existe con:
 # PORT=3000
-# GITHUB_TOKEN=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
+# GITHUB_TOKEN=el_token_que_envie_por_correo
 
 # Asegurarse de que frontend/.env existe con:
 # VITE_API_URL=http://localhost:3000
