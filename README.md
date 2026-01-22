@@ -34,7 +34,7 @@ PRUEBA TÉCNICA: CONSUMO DE API CON AUTENTICACION
 ```bash
 # Clonar el repositorio
 git clone https://github.com/DavielSanchez/Prueba_kliquea.git
-cd prueba
+cd prueba_kliquea
 ```
 
 #### **2\. Instalar Dependencias**
