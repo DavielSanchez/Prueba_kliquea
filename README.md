@@ -77,7 +77,7 @@ cd ..
 cd backend
 npm run dev
  # Terminal 2:
-cd ../frontend
+cd frontend
 npm run dev
 ```
 
