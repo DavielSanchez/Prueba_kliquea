@@ -7,7 +7,6 @@ function Navbar() {
   return (
     <>
       <nav className="border-b border-gray-500 bg-[#010409] px-4 pt-4 mb-8">
-        {/* Contenedor Superior: Centrado y con ancho máximo */}
         <div className="flex justify-between items-center max-w-[1280px] mx-auto w-full">
           <div className="flex items-center">
             <img
@@ -21,7 +20,6 @@ function Navbar() {
           </div>
 
           <div className="flex items-center gap-2">
-            {/* Buscador: Solo visible en Desktop */}
             <div className="hidden md:flex items-center border border-[#30363d] rounded-md px-3 py-1.5 gap-2 w-full min-w-[280px] cursor-text">
               <Search size={16} className="text-[#848d97]" />
               <div className="text-sm text-[#848d97] flex-1 flex justify-between items-center">
@@ -47,7 +45,6 @@ function Navbar() {
           </div>
         </div>
 
-        {/* Tabs Inferiores: Con scroll horizontal en móviles */}
         <div className="max-w-[1280px] mx-auto flex overflow-x-auto no-scrollbar mt-2">
           <div className="flex flex-nowrap">
             <button className="flex items-center gap-2 px-3 py-4 text-sm font-medium text-[#e6edf3] transition-colors group flex-shrink-0">
