@@ -34,24 +34,17 @@ PRUEBA TÉCNICA: CONSUMO DE API CON AUTENTICACION
 ```bash
 # Clonar el repositorio
 git clone https://github.com/DavielSanchez/Prueba_kliquea.git
-cd prueba_kliquea
+cd Prueba_kliquea
 ```
 
 #### **2\. Instalar Dependencias**
 
 ```bash
-# Puedes instalar todo los paquetes
-npm run install-all
-
-# O instala todo por separado
-
-npm install
-
 # Instalar dependencias del backend
 cd backend
 npm install
 # Instalar dependencias del frontend
-cd ../frontend
+cd frontend
 npm install
 ```
 
@@ -60,7 +53,7 @@ npm install
 ```bash
 
 # Navegar a la carpeta backend
-cd ../backend
+cd backend
 # Crear archivo.env con las credenciales
 PORT=3000
 GITHUB_TOKEN=el_token_que_envie_por_correo
@@ -69,7 +62,7 @@ GITHUB_TOKEN=el_token_que_envie_por_correo
 ```bash
 
 # Navegar a la carpeta frontend
-cd ../frontend
+cd frontend
 # Crear archivo.env con las credenciales
 VITE_API_URL=http://localhost:3000
 ```
@@ -79,9 +72,7 @@ VITE_API_URL=http://localhost:3000
 ```bash
 # Regresar a la raíz del proyecto
 cd ..
-# Método 1: Usar el script de inicio (RECOMENDADO)
-npm run dev
-# Método 2: Ejecutar servicios por separado
+# Ejecutar servicios por separado
 # Terminal 1:
 cd backend
 npm run dev
